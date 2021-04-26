@@ -9,7 +9,6 @@ import time
 
 
 class StatsSpider(scrapy.Spider):
-    count = 0
     # scrapy runspider scrapy_stats/spiders/stats_spiders.py -s LOG_FILE=all.log -o StatsSpider.csv
     name = 'stats_scrapy'
     # start_urls = ['http://www.stats.gov.cn/tjsj/tjbz/tjyqhdmhcxhfdm/2018/index.html']
@@ -88,9 +87,7 @@ class StatsSpider(scrapy.Spider):
             stats['社区'] = item.xpath('td[3]/text()').extract()[0]
             stats['社区代码'] = item.xpath('td[1]/text()').extract()[0]
             print(stats)
-            StatsSpider.count += StatsSpider.count
-            print(StatsSpider.count)
-            time.sleep(0.01)
+            time.sleep(0.1)
             yield stats
 
 

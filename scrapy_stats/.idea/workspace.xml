@@ -44,8 +44,8 @@
       <file leaf-file-name="stats_spiders.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/scrapy_stats/spiders/stats_spiders.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="233">
-              <caret line="28" selection-start-line="28" selection-end-line="28" />
+            <state relative-caret-position="308">
+              <caret line="89" column="25" selection-start-line="89" selection-start-column="25" selection-end-line="89" selection-end-column="25" />
               <folding>
                 <element signature="e#49#62#0" expanded="true" />
               </folding>
@@ -449,8 +449,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/scrapy_stats/spiders/stats_spiders.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="233">
-          <caret line="28" selection-start-line="28" selection-end-line="28" />
+        <state relative-caret-position="308">
+          <caret line="89" column="25" selection-start-line="89" selection-start-column="25" selection-end-line="89" selection-end-column="25" />
           <folding>
             <element signature="e#49#62#0" expanded="true" />
           </folding>
